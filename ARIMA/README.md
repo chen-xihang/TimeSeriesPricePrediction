@@ -4,7 +4,7 @@
 
 We use Brent crude oil spot prices from FRED (`DCOILBRENTEU`).
 
-Daily prices are aggregated to monthly averages to reduce high-frequency noise and align with macro-level dynamics.
+Daily prices are aggregated to monthly averages to reduce high-frequency noise.
 
 The series is log-transformed to:
 
