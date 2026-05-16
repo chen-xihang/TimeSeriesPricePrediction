@@ -8,9 +8,9 @@ Daily prices are aggregated to monthly averages to reduce high-frequency noise.
 
 The series is log-transformed to:
 
-- Stabilise variance  
+- Account better for multiplicative structrue of the price  
 - Interpret differences as approximate percentage changes  
-- Improve statistical properties for time-series modelling  
+- Improve statistical properties for time-series modelling as ARIMA is modelling additive relationship
 
 ---
 
