@@ -12,6 +12,10 @@ The series is log-transformed to:
 - Interpret differences as approximate percentage changes  
 - Improve statistical properties for time-series modelling as ARIMA is modelling additive relationship
 
+The data is split to 
+- 1997-2004 Training
+- 2004-2006 Validation
+- 2006-2007 Testing
 ---
 
 ## Differencing and Stationarity Testing
