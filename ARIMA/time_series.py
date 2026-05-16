@@ -7,6 +7,9 @@ from statsmodels.tsa.stattools import adfuller
 from statsmodels.tsa.stattools import kpss
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 import numpy as np
+import os
+
+os.chdir(os.path.dirname(os.path.realpath("time_series.py")))
 
 start = dt.datetime(1997, 1, 1)
 end = dt.datetime(2007,1,1)
@@ -74,4 +77,3 @@ plt.close(fig_acf)
 fig_pacf = plot_pacf(series, lags=20)
 fig_pacf.savefig("pacf_brent_log_d1.png", dpi=300, bbox_inches="tight")
 plt.close(fig_pacf)
-
